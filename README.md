@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install -y nodejs
 sudo apt-get install -y npm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash # install nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 source ~/.bashrc
 sudo nvm install –lts # Install the latest LTS version
 npm install -g npm@latest
